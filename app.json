@@ -56,8 +56,7 @@
      */
     "requires": [
         "font-awesome",
-        "Testpackage",
-        "foo"
+        "Testpackage"
     ],
 
     /**
