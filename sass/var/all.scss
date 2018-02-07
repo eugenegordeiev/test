@@ -1,0 +1,43 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+
+$enable-font-awesome: dynamic(true);
+
+.text-wrapper_left {
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    clear: both; 
+    display: block; 
+    position: relative;
+}
+
+.text-wrapper_right {
+    padding: 5px;
+    margin: 5px;
+    float: right;
+    clear: both; 
+    display: block; 
+    position: relative;
+}
+
+.activity {
+    width: 250px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.activity_no {
+    font-weight: bold;
+    font-color: red;
+    font-size: 18px;
+}
+
+.activity_date, .activity_user {
+    font-size: 16px;
+}
+
+.activity_button {
+    text-align: right;
+}
