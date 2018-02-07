@@ -6,14 +6,14 @@ Ext.define('MyApp.view.main.MainController', {
     alias: 'controller.main',
 
     requires: [
-        'Test.view.MyMessageBox'
+        'Testpackage.view.MyMessageBox'
     ],
 
     // Handles button click and displays the item in the message box
     itemClick: function(me, record, item, index, e, eOpts) {
         //Ext.Msg.alert('Activity ' + record.data.no, 'Date: ' + record.data.date + '<br/>User: ' + record.data.username);
         //Test.view.MyMessageBox.alert('Activity ' + record.data.no, 'Date: ' + record.data.date + '<br/>User: ' + record.data.username);
-        Ext.create('Test.view.MyMessageBox', {
+        Ext.create('Testpackage.view.MyMessageBox', {
             header: {
                 title: 'Activity ' + record.data.no,
                 titleAlign: 'center'
