@@ -1,0 +1,3 @@
+[submodule "packages/local/testpackage"]
+	path = packages/local/testpackage
+	url = https://eugenegordeiev@github.com/eugenegordeiev/testpackage
