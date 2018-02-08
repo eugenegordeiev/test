@@ -9,6 +9,7 @@ Ext.application({
     extend: 'MyApp.Application'
 
 /*
+ * Some comment here
     requires: [
         'MyApp.view.main.Main'
     ],
